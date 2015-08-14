@@ -17,5 +17,10 @@ def index():
 def page(path):
     return pages.get_or_404(path).html
 
+@app.route('/tag/<string:tag>/')
+def tag(tag):
+	tagged = [p for p in pages if tag in p.meta.get('tags', [])]
+	return render_template('tag.html', pages=tagged, tag=tag)
+	
 if __name__ == "__main__":
     app.run(port=8000)
