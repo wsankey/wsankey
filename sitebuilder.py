@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_flatpages import FlatPages
 
 DEBUG = True
@@ -11,7 +11,7 @@ pages = FlatPages(app)
 
 @app.route("/")
 def index():
-    return "First page."
+	return render_template('index.html', pages=pages)
 
 @app.route('/<path:path>/')
 def page(path):
