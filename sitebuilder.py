@@ -15,14 +15,18 @@ freezer = Freezer(app)
 
 @app.route("/")
 def index():
-	return render_template('index.html', pages=pages)
+	return render_template('index.html')
+
+@app.route("/blog/")
+def blog():
+	return render_template('blog.html', pages=pages)
 
 @app.route('/tag/<string:tag>/')
 def tag(tag):
 	tagged = [p for p in pages if tag in p.meta.get('tags', [])]
 	return render_template('tag.html', pages=tagged, tag=tag)
 
-@app.route('/<path:path>')
+@app.route('/blog/<path:path>/')
 def page(path):
 	page = pages.get_or_404(path)
 	return render_template('page.html', page=page)

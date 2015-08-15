@@ -1,8 +1,12 @@
-{% extends "base.html" %}
+<!DOCtype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Will Sankey</title>
+</head>
+<body>
 
-{% block content %}
-	<h2>List of stuff</h2>
-	{% with pages=pages %}
-		{% include "_list.html" %}
-	{% endwith %}
-{% endblock content %}
+  <h1><a href="{{ url_for("blog") }}">Will Sankey</a></h1>
+
+</body>
+</html>
