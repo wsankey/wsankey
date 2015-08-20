@@ -3,10 +3,18 @@
 <head>
   <meta charset="utf-8">
   <title>Will Sankey</title>
+ <script src="{{ url_for('static', filename='js/triangles.js') }}"/></script>
+ <script src="//use.typekit.net/puo2mkm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+ <link type="text/css" href="{{ url_for('static', filename='css/main.css') }}"/>
 </head>
 <body>
-
-  <h1><a href="{{ url_for("blog") }}">Will Sankey</a></h1>
-
+<h1>Will Sankey</h1><h2> Professional researcher, hobbyist developer.</h2>
+  <canvas id="canvas"></canvas>
+  <ul>
+  	<li>[About Me, </li>
+  	<li>Blog, </li>
+  	<li> Podcast]</li>
+  </ul>
 </body>
 </html>
