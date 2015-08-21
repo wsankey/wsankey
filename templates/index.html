@@ -3,18 +3,20 @@
 <head>
   <meta charset="utf-8">
   <title>Will Sankey</title>
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
  <script src="{{ url_for('static', filename='js/triangles.js') }}"/></script>
  <script src="//use.typekit.net/puo2mkm.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
- <link type="text/css" href="{{ url_for('static', filename='css/main.css') }}"/>
+ <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/main.css') }}"/>
+
 </head>
 <body>
-<h1>Will Sankey</h1><h2> Professional researcher, hobbyist developer.</h2>
+<h1>Will Sankey</h1>
   <canvas id="canvas"></canvas>
   <ul>
-  	<li>[About Me, </li>
-  	<li>Blog, </li>
-  	<li> Podcast]</li>
+  	<li><a href="{{ url_for('aboutme')}}">[About Me, </a></li>
+  	<li><a href="{{ url_for('blog')}}">Blog,</a></li>
+  	<li><a href="{{ url_for('projects')}}">Projects]</a></li>
   </ul>
 </body>
 </html>
