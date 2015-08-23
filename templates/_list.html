@@ -1,16 +1,19 @@
-<ul>
+
 {% for page in pages %}
-	<li>
-		<a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>
-		| Date: {{ page.date }}
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+			<span class="glyphicon glyphicon-align-justify brandcolor"></span><a href="{{ url_for("page", path=page.path) }}"> {{ page.title }}</a>
+		| <span class="glyphicon glyphicon-time brandcolor"></span> Date: {{ page.date }}
 	{% if page.meta.tags|length %}
-		| Tagged:
+		| <span class="glyphicon glyphicon-bookmark brandcolor"></span> Tagged:
 		{% for page_tag in page.meta.tags %}
 			<a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>
 		{% endfor %}
+			</div>
+		</div>
+	</div>
 	{% endif %}
-	</li>
 {% else %}
-	<li>No page.</li>
+	<p>No page.</p>
 {% endfor %}
-</ul>

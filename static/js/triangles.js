@@ -51,7 +51,7 @@ window.onload = function() {
          velx=.1*Math.random()-.05;
          vely=.1*Math.random()-.05;
          col = 
-            "rgba(100,100,100,.5)";
+            "rgba(189,73,50,.5)";
 
          arr.push(new triangle(ax,ay,bx,by,cx,cy,velx,vely, col));
       }
