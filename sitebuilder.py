@@ -1,17 +1,24 @@
 import sys
 
-from flask import Flask, render_template
-from flask_flatpages import FlatPages
+from flask import Flask, render_template, render_template_string, Markup
+from flask_flatpages import FlatPages, pygmented_markdown
 from flask_frozen import Freezer
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
+FLATPAGES_MARKDOWN_EXTENSIONS = ['codehilite']
 
 app = Flask(__name__)
 app.config.from_object(__name__)
 pages = FlatPages(app)
 freezer = Freezer(app)
+
+def prerender_jinja(text):
+    prerendered_body = render_template_string(Markup(text))
+    return pygmented_markdown(prerendered_body)
+
+app.config['FLATPAGES_HTML_RENDERER'] = prerender_jinja
 
 @app.route("/")
 def index():
@@ -38,6 +45,7 @@ def tag(tag):
 def page(path):
 	page = pages.get_or_404(path)
 	return render_template('page.html', page=page)
+
 	
 if __name__ == "__main__":
 	if len(sys.argv) > 1 and sys.argv[1] == "build":

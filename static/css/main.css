@@ -1,8 +1,13 @@
 * {
    margin:0; 
    padding:0;
-   font-family: "apolline" !important;
+  font-family: "chaparral-pro";
+   	 background: #efeff3;
 }	
+h1 {
+	font-family: "aktiv-grotesk" !important;
+	  font-size: 56px;
+}
 
 html {
    overflow:hidden;
@@ -22,4 +27,8 @@ a {
 }
 .brandcolor {
 	color: #BD4932
+}
+
+#list {
+	font-size: 20px;
 }
