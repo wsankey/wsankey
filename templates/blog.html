@@ -1,8 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<h2>Latest Blog Posts</h2>
+<div class="container card">
+	<h1>Latest Blog Posts</h1>
 	{% with pages=pages %}
 		{% include "_list.html" %}
 	{% endwith %}
+</div>
 {% endblock content %}

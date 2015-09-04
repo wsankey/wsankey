@@ -5,22 +5,32 @@
   <title>Will Sankey</title>
    <script src="//use.typekit.net/puo2mkm.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
- 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-  	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/styles.css') }}"/>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap.min.css') }}"/>
   	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/prism.css') }}"/>
   	  <script src="{{ url_for('static', filename='js/prism.js') }}"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/styles.css') }}"/>
 </head>
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-12 col-md-6">
-  <h1><a href="{{ url_for("index") }}">Will Sankey</a></h1>
+		<div class="col-sm-12">
+  <h1><a href="{{ url_for("index") }}">Will Sankey</a>
+  <small>
+  <span class="namegroup">
+  <ul id="namelist">
+    <li id="list"><a href="{{ url_for('aboutme')}}">[About Me, </a></li>
+    <li id="list"><a href="{{ url_for('blog')}}">Blog,</a></li>
+    <li id="list"><a href="{{ url_for('projects')}}">Projects]</a></h3></li>
+  </ul>
+  </span>
+  </small>
+  </h1>
 
 {% block content %}
 {% endblock content %}
- 		</div>
-	</div>
+    </div>
+  </div>
 </div>
 </body>
 </html>

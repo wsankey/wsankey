@@ -1,5 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Projects</h1>
-<h2>Five Py</h2>
+<div class="container card">
+	<div class="row">
+	<h1>Podcasts</h1>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 pull-left" >
+			<h2>FivePy</h2><p>Released three times a week, this show provides information on algorithms, design patterns, and coding in the python programming language.</p>
+		</div>
+		<div class="col-xs-4">
+			<img src="{{ url_for('static', filename = 'media/fivepy2.jpg') }}" width="180" height="180">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6 pull-left" >
+			<h2>Miles Away</h2><p>A semi-regularly show with Billy Miles and Will Sankey.</p>
+		</div>
+		<div class="col-xs-4">
+			<img src="{{ url_for('static', filename = 'media/billnwill2.jpg') }}" width="180" height="180">
+		</div>
+	</div>
+	<div class="row">
+	<h1>Websites and Platforms</h1>
+	</div>
+</div>
 {% endblock content %}
