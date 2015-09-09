@@ -1,4 +1,5 @@
 title: Building an app with Ionic and Angular - Part 1
+date: 2015-02-11
 categories: [programming]
 tags: [angular, ionic]
 description: Follow along as I build an app a researcher might use in the field to collect survey data from participants.

@@ -1,4 +1,5 @@
 title: Learning from Pycon2015
+date: 2015-04-16
 categories: [general]
 tags: [python]
 description: The best videos from PyCon2015 - Pt 1. 

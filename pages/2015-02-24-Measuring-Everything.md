@@ -1,4 +1,5 @@
-title: Measuring everything
+title: Measuring 
+date: 2015-02-24
 categories: [general]
 tags: [general]
 description: We are being catalogued, measured, categorized and stored away for purposes that have yet to be imagined. 

@@ -1,4 +1,5 @@
 title: Design resources for the rest of us
+date: 2015-02-08
 categories: [general, programming]
 tags: [programming]
 description: Sites for finding the right color and typeface.

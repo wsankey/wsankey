@@ -1,4 +1,5 @@
 title: The Analytical Mind Podcast - 003
+date: 2015-03-23
 categories: [podcast]
 tags: [episode, information]
 description: Our networks might be smaller than we think. 

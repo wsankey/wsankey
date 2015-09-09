@@ -1,4 +1,5 @@
 title: Advice for the graduating Master's student
+date: 2015-02-06
 categories: [general, advice]
 tags: [advice]
 description: My general advice to students graduating with a masters in public policy.

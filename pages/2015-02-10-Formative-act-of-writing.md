@@ -1,4 +1,5 @@
 title: The formative act of writing
+date: 2015-02-10
 categories: [general, advice]
 tags: [programming]
 description: You need to write well.

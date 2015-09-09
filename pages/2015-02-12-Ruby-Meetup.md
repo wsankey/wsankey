@@ -1,4 +1,5 @@
 title: D.C. Ruby Meetup, Salesforce and Lambdas
+date: 2015-02-12
 categories: [programming]
 tags: [meetups, ruby]
 description: Notes from the February Ruby Meetup in D.C.

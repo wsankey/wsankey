@@ -1,4 +1,5 @@
 title: Data Science is Hard - Part 1
+date: 2015-04-07
 categories: [data science]
 tags: [general]
 description: There is a dense layer of vocabulary defending the central ideas.

@@ -1,4 +1,5 @@
 title: Project Based Learning
+date: 2015-03-30
 categories: [general]
 tags: [network, data]
 description: My advice to you starting out in data analysis or development is simple.

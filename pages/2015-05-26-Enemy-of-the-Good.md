@@ -1,4 +1,5 @@
 title: Enemy of the Good
+date: 2015-05-26
 categories: [general]
 tags: [advice]
 description: After realizing I've been in a funk, I find a way out.  

@@ -1,4 +1,5 @@
 title: Mobile's dominance
+date: 2015-03-02
 categories: [general]
 tags: [mobile]
 description: Or, the importance of the Ionic and React Native frameworks.

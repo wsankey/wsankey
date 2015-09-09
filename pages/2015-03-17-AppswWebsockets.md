@@ -1,4 +1,5 @@
 title: DC Django-district Meetup - Python Websockets
+date: 2015-03-17
 categories: [meetup, python]
 tags: [data]
 description: The March DC Django-district meetup with Matt Makai held at iStrategyLabs

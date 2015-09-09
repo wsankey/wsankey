@@ -1,4 +1,5 @@
 title: Hachiko the dog
+date: 2015-03-11
 categories: [general]
 tags: [general]
 description: What is it about this movie that is so touching.

@@ -1,4 +1,5 @@
 title: Expanding the sharing and service economies
+date: 2015-03-03
 categories: [general]
 tags: [general]
 description: Millennials are increasing the number of sharing services available around the globe.

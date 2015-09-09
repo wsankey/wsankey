@@ -1,4 +1,5 @@
 title: The Analytical Mind Podcast - 001
+date: 2015-03-09
 categories: [podcast]
 tags: [episode, information]
 description: The first episode of the Analytical Mind podcast.

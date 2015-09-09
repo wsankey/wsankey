@@ -1,4 +1,5 @@
 title: On being mentored
+date: 2015-02-13
 categories: [advice, programming]
 tags: [advice]
 description: Observations for success in your mentorship.

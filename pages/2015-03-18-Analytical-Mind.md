@@ -1,4 +1,5 @@
 title: The Analytical Mind Podcast - 002
+date: 2015-03-18
 categories: [podcast]
 tags: [episode, information]
 description: Thoughts on the flood of open data - its current state and opportunities for the future.

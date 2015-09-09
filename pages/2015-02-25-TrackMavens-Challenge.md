@@ -1,4 +1,5 @@
 title: TrackMaven's Monthly Challenge - Mobile
+date: 2015-02-25
 categories: [general]
 tags: [general]
 description: Notes from TrackMaven's monthly meetup about mobile.

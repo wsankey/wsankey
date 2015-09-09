@@ -1,4 +1,5 @@
 title: A win at the Incubator Pitch Fest
+date: 2015-04-06
 categories: [data science]
 tags: [data, python, flask]
 description: My team created and successfully pitched the winning data product. 

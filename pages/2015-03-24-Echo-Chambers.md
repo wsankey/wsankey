@@ -1,4 +1,5 @@
 title: Echo Chambers
+date: 2015-03-24
 categories: [general]
 tags: [network, data]
 description: Your network is smaller than you think, and that might be limiting your potential.

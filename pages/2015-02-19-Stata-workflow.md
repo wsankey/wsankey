@@ -1,4 +1,5 @@
 title: My Stata Workflow
+date: 2015-02-19
 categories: [workflow, programming]
 tags: [workflow, analysis]
 description: Some tips on structuring your data analysis using Stata.

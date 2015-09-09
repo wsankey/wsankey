@@ -1,4 +1,5 @@
 title: Freely, Publicly Available
+date: 2015-03-10
 categories: [general]
 tags: [data]
 description: The flood of Open Data offers real opportunities for those who know how to use it. 

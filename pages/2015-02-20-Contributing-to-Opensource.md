@@ -1,4 +1,5 @@
 title: Always. Be. Contributing?
+date: 2015-02-20
 categories: [programming, advice]
 tags: [data, analysis]
 description: The ups and downs of contributing to open source, all the time. 

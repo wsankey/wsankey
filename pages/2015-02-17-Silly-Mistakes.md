@@ -1,4 +1,5 @@
 title: Silly mistakes
+date: 2015-02-17
 categories: [general]
 tags: [advice]
 description: You will make them. It's your response that counts. 

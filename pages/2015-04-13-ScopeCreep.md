@@ -1,4 +1,5 @@
 title: Data Science is Hard - Part 2
+date: 2015-04-13
 categories: [data science]
 tags: [general]
 description: It's easy to set your aims too high.

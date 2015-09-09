@@ -1,8 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<h2>Posts tagged <em>{{ tag }}</em></h2>
+<div class="container">
+	<div class="row">
+		<div  class="col-xs-12 card">
+	<h1>Posts tagged: <em>{{ tag }}</em></h1>
 	{% with pages=pages %}
 		{% include "_list.html" %}
 	{% endwith %}
+		</div>
+	</div>
+</div>
 {% endblock content %}

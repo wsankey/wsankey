@@ -1,4 +1,5 @@
 title: DC Python Meetup - Hadoop with Python
+date: 2015-03-12
 categories: [meetup, python]
 tags: [data]
 description: The March DC Python meetup with Donald Miner at iStrategyLabs

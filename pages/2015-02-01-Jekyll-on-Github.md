@@ -1,4 +1,5 @@
 title: Moving to Jekyll on Github
+date: 2015-02-01
 categories: [general, programming]
 tags: [programming]
 description: How I moved away from Wordpress on GoDaddy to Jekyll on Github.

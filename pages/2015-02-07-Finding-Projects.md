@@ -1,4 +1,5 @@
 title: Finding worthwhile side-projects 
+date: 2015-02-07
 categories: [programming, advice]
 tags: [advice]
 description: How to find projects that will improve your skills and beef your resume.

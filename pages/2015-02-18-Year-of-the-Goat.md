@@ -1,4 +1,5 @@
 title: The Year of the Goat
+date: 2015-02-18
 categories: [general]
 tags: [general]
 description: Happy (Chinese) New Year! Here's my resolutions and some impressive data visualizations.
