@@ -34,7 +34,8 @@ def projects():
 
 @app.route("/posts/")
 def blog():
-	return render_template('blog.html', pages=pages)
+	ordered = [p for p in sorted(pages)]
+	return render_template('blog.html', pages=ordered)
 
 @app.route('/tag/<string:tag>/')
 def tag(tag):
