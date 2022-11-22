@@ -8,7 +8,7 @@ Jinja2==2.8
 Markdown==2.6.2
 MarkupSafe==0.23
 PIL==1.1.7
-Pillow==2.9.0
+Pillow==9.3.0
 pillowcase==2.0.0
 Pygments==2.0.2
 PyYAML==3.11
